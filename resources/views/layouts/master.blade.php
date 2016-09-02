@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anywash - Laundry Business</title>
+    <meta name="description" content="Laundryes - Laundry Business Html Template. It is built using bootstrap 3.3.2 framework, works totally responsive, easy to customise, well commented codes and seo friendly.">
+    <meta name="keywords" content="laundry, multipage, business, clean, bootstrap">
+    <meta name="author" content="rudhisasmito.com"> 
+	
+	<!-- ==============================================
+	Favicons
+	=============================================== -->
+
+<link rel="shortcut icon" href="{{asset('images/favicon.ico')}}">
+<link rel="apple-touch-icon" href="{{asset('images/apple-touch-icon.png')}}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/apple-touch-icon-72x72.png')}}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/apple-touch-icon-114x114.png')}}">
+	
+	<!-- ==============================================
+	CSS
+	=============================================== -->
+    <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
+	<link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
+	
+	
+	
+	
+	<!-- ==============================================
+	Google Fonts
+	=============================================== -->
+    <link href="{{asset('http://fonts.googleapis.com/css?family=Raleway:400,700,900')}}" rel="stylesheet">
+	<!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,900' rel='stylesheet' type='text/css'>-->
+	
+	
+	<!-- Custom Stylesheet -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+	
+	<script src="{{asset('js/modernizr.min.js')}}"></script>
+		
+</head>
+
+<body>
+	<!-- Load page -->
+	<div class="animationload">
+		<div class="loader"></div>
+	</div>
+	
+	
+	 NAVBAR SECTION 
+	<div class="navbar navbar-main navbar-fixed-top">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+						<div class="info">
+							<div class="info-item">
+								<span class="fa fa-phone"></span> Phone +62 7144 3300
+							</div>
+							<div class="info-item">
+								<span class="fa fa-envelope-o"></span> <a href="mailto:info@laundryes.com" title="">Email info@anywash.com</a>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+						<div class="top-sosmed pull-right">
+							<a href="#" title=""><span class="fa fa-facebook"></span></a>
+							<a href="#" title=""><span class="fa fa-twitter"></span></a>
+							<a href="#" title=""><span class="fa fa-instagram"></span></a>
+							<a href="#" title=""><span class="fa fa-pinterest"></span></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index-2.html"><img src="{{asset('images/logo_blue.png')}}" alt="" /></a>
+				
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+                    <a href="{{ action('HomeController@getIndex') }}">Home</a>
+					 <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="index-2.html">Homepage Default</a></li>
+						<li><a href="index2.html">Homepage Sliders</a></li>
+					  </ul>-->
+					</li>
+					<li><a href="{{ action('HomeController@getAbout') }}">ABOUT</a></li>
+					<li><a href="{{ action('HomeController@getServices') }}">SERVICES</a></li>
+					<li><a href="{{ action('HomeController@getPricing') }}">PRICING</a></li>
+					<li><a href="{{ action('HomeController@getFaq') }}">FAQ</a></li>
+					<li><a href="{{ action('HomeController@getBlog') }}">BLOG</a></li>
+					<li><a href="{{ action('HomeController@getContact') }}">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+    </div>
+    @yield('content')
+    
+    @yield('footer')
+    <!-- FOOTER SECTION -->
+	<div class="footer">
+	
+		<div class="f-desc">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-logo">
+								<img src="{{asset('images/logo_blue.png')}}" alt="" />
+							</div>
+							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
+							<div class="footer-sosmed">
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-facebook"></i>
+									</div>
+								</a>
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-twitter"></i>
+									</div>
+								</a>
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-pinterest"></i>
+									</div>
+								</a>
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-google"></i>
+									</div>
+								</a>
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-instagram"></i>
+									</div>
+								</a>
+								<a href="#" title="">
+									<div class="item">
+										<i class="fa fa-linkedin"></i>
+									</div>
+								</a> 
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-title">
+								<h4>RECENT POST</h4>
+							</div>
+							<div class="footer-blog-item">
+								<div class="footer-blog-lead">
+									<a href="{{ action('HomeController@getBlogs') }}" title="">How to laundry your suit office - tips and trick.</a>
+								</div>
+								<div class="footer-blog-date">
+									May 29, 2015
+								</div>
+							</div>
+							<div class="footer-blog-item">
+								<div class="footer-blog-lead">
+									<a href="{{ action('HomeController@getBlogs') }}" title="">How to laundry your suit office - tips and trick.</a>
+								</div>
+								<div class="footer-blog-date">
+									May 29, 2016
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-title">
+								<h4>NEWSLETTER</h4>
+							</div>
+							<div class="footer-form">
+								<form action="#">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-default">SEND</button>
+									</div>
+									
+								</form>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-title">
+								<h4>GET IN TOUCH</h4>
+							</div>
+							<div class="footer-getintouch">
+								<div class="footer-getintouch-item">
+									<div class="icon">
+										<b class="fa fa-phone"></b>
+									</div>
+									<div class="desc">
+										<div class="desc-1">Phone</div>
+										<div class="desc-2">:</div>
+										<div class="desc-3">+62 7000 4400 <br />+62 7000 4422</div>
+									</div>
+								</div>
+								<div class="footer-getintouch-item">
+									<div class="icon">
+										<b class="fa fa-envelope "></b>
+									</div>
+									<div class="desc">
+										<div class="desc-1">Email</div>
+										<div class="desc-2">:</div>
+										<div class="desc-3"><a href="mailto:support@laundryes.com" title="">support@laundryes.com</a></div>
+									</div>
+								</div>
+								<div class="footer-getintouch-item">
+									<div class="icon">
+										<b class="fa fa-globe"></b>
+									</div>
+									<div class="desc">
+										<div class="desc-1">Website </div>
+										<div class="desc-2">:</div>
+										<div class="desc-3">www.laundryes.com</div>
+									</div>
+								</div>
+								<div class="footer-getintouch-item">
+									<div class="icon">
+										<b class="fa fa-map-marker"></b>
+									</div>
+									<div class="desc">
+										<div class="desc-1">Address </div>
+										<div class="desc-2">:</div>
+										<div class="desc-3">80  street <br />Lagos</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+				
+		</div>
+		
+		<div class="fcopy">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<p class="ftex">&copy; 2016 Laundryes by scofield - All Rights Reserved</p> 
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('https://maps.google.com/maps/api/js?sensor=false&amp;ver=4.1.5')}}"></script>
+    <script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap-hover-dropdown.min.js')}}"></script>
+    
+    <script src="{{asset('js/script.js')}}"></script>
+	
+	
+	
+</body>
+</html>
