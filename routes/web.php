@@ -11,5 +11,27 @@
 |
 */
 
+<<<<<<< HEAD
 //Route::controller('/', 'HomeController');
 Route::get('/', ['as' => 'index', 'uses' => 'HomeController@getIndex']);
+=======
+/*Route::get('/', function () {
+    return view('welcome');
+});*/
+Route::get('/', ['as' => 'index', 'uses' => 'HomeController@getIndex']);
+
+Route::get('/about', ['as' => 'about', 'uses' => 'HomeController@getAbout']);
+
+Route::get('/contact', ['as' => 'contact', 'uses' => 'HomeController@getContact']);
+
+Route::get('/pricing', ['as' => 'pricing', 'uses' => 'HomeController@getPricing']);
+
+Route::get('/services', ['as' => 'services', 'uses' => 'HomeController@getServices']);
+
+Route::get('/faq', ['as' => 'faq', 'uses' => 'HomeController@getFaq']);
+
+Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlog']);
+
+Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlogs']);
+
+>>>>>>> c9b4a53d93b8a2b75acb11bf2641581842eae2ad
