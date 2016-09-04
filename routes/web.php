@@ -11,10 +11,9 @@
 |
 */
 
-<<<<<<< HEAD
+
 //Route::controller('/', 'HomeController');
-Route::get('/', ['as' => 'index', 'uses' => 'HomeController@getIndex']);
-=======
+//Route::get('/', ['as' => 'index', 'uses' => 'HomeController@getIndex']);
 /*Route::get('/', function () {
     return view('welcome');
 });*/
@@ -34,4 +33,6 @@ Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlog']);
 
 Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlogs']);
 
->>>>>>> c9b4a53d93b8a2b75acb11bf2641581842eae2ad
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
