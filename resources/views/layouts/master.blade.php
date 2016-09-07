@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anywash - Laundry Business</title>
+    <title>Anywash - Laundry Service</title>
     <meta name="description" content="Laundryes - Laundry Business Html Template. It is built using bootstrap 3.3.2 framework, works totally responsive, easy to customise, well commented codes and seo friendly.">
     <meta name="keywords" content="laundry, multipage, business, clean, bootstrap">
     <meta name="author" content="rudhisasmito.com"> 
@@ -59,10 +59,10 @@
 					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 						<div class="info">
 							<div class="info-item">
-								<span class="fa fa-phone"></span> Phone +62 7144 3300
+								<span class="fa fa-phone"></span> Phone +234 08170012975
 							</div>
 							<div class="info-item">
-								<span class="fa fa-envelope-o"></span> <a href="mailto:info@laundryes.com" title="">Email info@anywash.com</a>
+								<span class="fa fa-envelope-o"></span> <a href="mailto:hello@anywash.ng" title="">Email hello@anywash.ng</a>
 							</div>
 							
 						</div>
@@ -123,7 +123,7 @@
 							<div class="footer-logo">
 								<img src="{{asset('images/logo_blue.png')}}" alt="" />
 							</div>
-							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
+							<p>Anywash.ng is an online base laundry & dry cleaning services, that will offer customers/clients the opportunity of placing orders for their laundry and dry cleaning services.</p>
 							<div class="footer-sosmed">
 								<a href="#" title="">
 									<div class="item">
@@ -168,7 +168,7 @@
 									<a href="{{ action('HomeController@getBlogs') }}" title="">How to laundry your suit office - tips and trick.</a>
 								</div>
 								<div class="footer-blog-date">
-									May 29, 2015
+									May 29, 2016
 								</div>
 							</div>
 							<div class="footer-blog-item">
@@ -217,7 +217,7 @@
 									<div class="desc">
 										<div class="desc-1">Phone</div>
 										<div class="desc-2">:</div>
-										<div class="desc-3">+62 7000 4400 <br />+62 7000 4422</div>
+										<div class="desc-3">+234 8170012975<!-- <br />+62 7000 4422--></div>
 									</div>
 								</div>
 								<div class="footer-getintouch-item">
@@ -227,7 +227,7 @@
 									<div class="desc">
 										<div class="desc-1">Email</div>
 										<div class="desc-2">:</div>
-										<div class="desc-3"><a href="mailto:support@laundryes.com" title="">support@laundryes.com</a></div>
+										<div class="desc-3"><a href="mailto:hello@anywash.ng" title="">hello@anywash.ng</a></div>
 									</div>
 								</div>
 								<div class="footer-getintouch-item">
@@ -237,7 +237,7 @@
 									<div class="desc">
 										<div class="desc-1">Website </div>
 										<div class="desc-2">:</div>
-										<div class="desc-3">www.laundryes.com</div>
+										<div class="desc-3">www.anywash.ng</div>
 									</div>
 								</div>
 								<div class="footer-getintouch-item">
@@ -247,8 +247,10 @@
 									<div class="desc">
 										<div class="desc-1">Address </div>
 										<div class="desc-2">:</div>
-										<div class="desc-3">80  street <br />Lagos</div>
+										<div class="desc-3">7 Borokini Dada Street,  
+                                        </div>
 									</div>
+                                    <div class="">Benson Bus-stop Lagos road, opposite UBA Bank, beside Access Bank, Ikorodu. Lagos</div>
 								</div>
 								
 							</div>
@@ -265,7 +267,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p class="ftex">&copy; 2016 Laundryes by scofield - All Rights Reserved</p> 
+						<p class="ftex">&copy; 2016 Anywash by Greenhood Nig Ltd - All Rights Reserved</p> 
 					</div>
 				</div>
 			</div>

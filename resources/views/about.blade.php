@@ -10,7 +10,7 @@
 					<div class="caption">
 						<h3>About Us</h3>
 						<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
+						  <li><a href="{{ action('HomeController@getIndex') }}">Home</a></li>
 						  <li class="active">About Us</li>
 						</ol>
 					</div>
@@ -27,8 +27,9 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="page-title">
-						<h2 class="lead">WELCOME TO LAUNDRYES</h2>
-						<p class="sublead">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+						<h2 class="lead">WELCOME TO ANYWASH</h2>
+						<p class="sublead">We offers best, cheapest, door to door, and pick up delivery services
+</p>
 					</div>
 				</div>
 			</div>
@@ -42,10 +43,11 @@
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="about-wrap">
-						<h4 class="title-page">OUR HISTORY</h4>
-						<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-						<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business.</p>
-						<p>As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+						<h4 class="title-page">INTRODUCTION </h4>
+						<p>Anywash.ng is an online base laundry & dry cleaning services, that will offer customers/clients the opportunity of placing orders for their laundry and dry cleaning services. </p>
+						<p>This concept is born out of convenience and ever-busy schedules of most Lagosians and at the same time to bridge the gap of cleanliness.</p>
+						<p>The urban nature, couple with the mega-city status of Lagos which has estimated population of about 20million people, makes it a viable market for laundry services for most corporate and working class with the metropolitan Lagos.</p>
+                        <p>Anywash.ng services will be online base with pick up and delivery services as applicable through the use of www.anywash.ng website or downloadable mobile app.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -58,7 +60,8 @@
 							</div>
 							<div class="ket">
 								<h4>OUR VISION</h4>
-								<p>Our templates price really affordable. Only $21 for one beutiful templates, you will get free update and awesome support from us. Still thinking to buy?</p>
+								<p>To be the leading laundry and dry cleaning service nationwide with focus on high quality and consistent pursuit of excellence in all that we do.
+</p>
 							</div>
 						</div>
 					</div>
@@ -69,7 +72,7 @@
 							</div>
 							<div class="ket">
 								<h4>OUR MISSION</h4>
-								<p>Of course this is muse templates, you dont need to writing code to edit, you just need to drag and drop your images and change like photoshop. Easy Right!</p>
+								<p>To be a leading online driven laundry and dry cleaning services in Nigeria and beyond, that is seamless and fun to use.</p>
 							</div>
 						</div>
 					</div>
@@ -79,8 +82,9 @@
 								<div class="fa fa-leaf"></div>
 							</div>
 							<div class="ket">
-								<h4>OUR STRENGTHS</h4>
-								<p>Easy to edit color, font, icon, or costumizable layout. You can edit with the tool in adobe muse. Everything easy to change and editing.</p>
+								<h4>OUR CORE VALUE</h4>
+								<p>
+Delivering the best quality to our customers, ensuring they are satisfied with our services and providing our them with the best customer care.</p>
 							</div>
 						</div>
 					</div>
@@ -94,92 +98,62 @@
 	
 	
 	<!-- STATS SECTION FACTS --> 
-	<div class="section stat-facts" style="background:url('images/page_img-u24411-fr.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
-		<div class="bg-overlay">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="stat-item">
-							<div class="icon">
-								<i class="fa fa-briefcase"></i>
-							</div>
-							<div class="stat-title">
-								<h3 class="number">450</h3>
-								<p>Business Clients</p>
-							</div>	
-						</div>
-					</div>
-					
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="stat-item">
-							<div class="icon">
-								<i class="fa fa-coffee"></i>
-							</div>
-							<div class="stat-title">
-								<h3 class="number">250</h3>
-								<p>Cup of Coffee</p>
-							</div>	
-						</div>
-					</div>
-					
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="stat-item">
-							<div class="icon">
-								<i class="fa fa-thumbs-o-up"></i>
-							</div>
-							<div class="stat-title">
-								<h3 class="number">4554</h3>
-								<p>People Like Us</p>
-							</div>	
-						</div>
-					</div>
-					
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="stat-item">
-							<div class="icon">
-								<i class="fa fa-users"></i>
-							</div>
-							<div class="stat-title">
-								<h3 class="number">350</h3>
-								<p>Employees</p>
-							</div>	
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
 	<!-- ABOUT SECTION -->
-	<div class="section">
+	<div class="section about">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="page-title">
-						<h2 class="lead">MEET OUR FOUNDERS</h2>
-						<p class="sublead">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+						<h2 class="lead">ANYWASH CLUB MEMBERSHIP</h2>
+						<p class="sublead">Join our membership club and get discount.</p>
 					</div>
 				</div>
 			</div>
 			
-			<div class="row pbot-main">
+			<div class="row">
 			
-				<div class="col-xs-12 col-md-3">
-					<img src="images/4-u29022-fr.jpg" alt="" class="img-responsive" />
-					<div class="founder-box">
-						<h4 class="title-page">BOKEER DOEL</h4>
-						<p>CEO / Founder Company</p>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="why-item">
+						<div class="icon">
+							<div class="fa fa-flash"></div>
+						</div>
+						<div class="ket">
+							<h4>BRONZE</h4>
+							<p>An individual or organization is qualified to be a bronze member of anywash if such person washes up to 20-30 clothes in a month from anywash. A bronze member of anywash is entitled to 5% discount on clothes.</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-9">
-					<div class="about-wrap">
-						<h4 class="title-page">WHO IS LAUNDRYES?</h4>
-						<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-						<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business.</p>
-						<p>As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="why-item">
+						<div class="icon">
+							<div class="fa fa-money"></div>
+						</div>
+						<div class="ket">
+							<h4>SILVER </h4>
+							<p>An individual or organization can be a silver member of anywash.ng when he/she washes up to 31-50 clothes with us in a month. Such a member enjoys to 10% discount on every clothes brought for washing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="why-item">
+						<div class="icon">
+							<div class="fa fa-crosshairs"></div>
+						</div>
+						<div class="ket">
+							<h4>GOLD </h4>
+							<p>A gold member is one who must have washed 51-70 clothes with anywash.ng within a month. This member is entitled to 15% discount on every clothes brought for washing.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="why-item">
+						<div class="icon">
+							<div class="fa fa-life-bouy"></div>
+						</div>
+						<div class="ket">
+							<h4>PLATINUM </h4>
+							<p>Platinum members for anywash.ng are clients that wash up to 71 clothes and above with us in a month and can schedule and pay upfront. Platinum members enjoy 25% discount on every clothes washed.</p>
+						</div>
 					</div>
 				</div>
 				
@@ -187,18 +161,32 @@
 			
 		</div>
 	</div>
+
+
 	
-	
-	
+	<!-- ABOUT SECTION -->
+		<!-- STATS SECTION CLIENT --> 
+	<div class="fcopy">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<p class="ftex"> Note: All anywash.ng members must make their payments using our online platform payment gateway provided on our site, in other to enjoy our discounts.</p> 
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
 	<!-- STATS SECTION CLIENT --> 
-	<div class="section stat-client bg-grey pbot-main" style="">
+	<!--<div class="section stat-client bg-grey pbot-main" style="">
 		<div class="container">
 		
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="page-title">
 						<h2 class="lead">CLIENTS WORK WITH US</h2>
-						<p class="sublead">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+						<p class="sublead">Trust and integrity are what come to mind in our relationship with Clients.</p>
 					</div>
 				</div>
 			</div>
@@ -243,7 +231,7 @@
 				
 			</div>
 		</div>
-	</div>
+	</div>-->
 	
 	
 	@stop

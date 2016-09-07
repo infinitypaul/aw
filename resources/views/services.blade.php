@@ -10,7 +10,7 @@
 					<div class="caption">
 						<h3>SERVICES</h3>
 						<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
+						  <li><a href="{{ action('HomeController@getIndex') }}">Home</a></li>
 						  <li class="active">Services</li>
 						</ol>
 					</div>
@@ -28,7 +28,7 @@
 				<div class="col-sm-12 col-md-12">
 					<div class="page-title">
 						<h2 class="lead">OUR SERVICES</h2>
-						<p class="sublead">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+						<p class="sublead">Anywash is a professional Laundry Service that provides customers with the most convenient laundry services.</p>
 					</div>
 				</div>
 			</div>
@@ -43,14 +43,15 @@
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">COIN LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">BASIC OR REGULAR SERVICE</h4>
+							<p>At ANYWASH we provide the most convenient way to do laundry and dry cleaning. we take the utmost care in cleaning your laundry and provides the highest quality on-demand pickup and delivery service for laundry and dry cleaning.<br />
+                            We offer a basic service which is a normal dry-cleaning service <br />which includes</p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> washing.</li>
+								<li><i class="fa fa-check-circle"></i> ironing.</li>
+								<li><i class="fa fa-check-circle"></i> cleaning.</li>
+								<li><i class="fa fa-check-circle"></i> Pickup and delivery service.</li>
+								<li><i class="fa fa-check-circle"></i> @ Affordable Price.</li>
 							</ul>
 						</div>
 					</div>
@@ -60,14 +61,15 @@
 				<div class="services-item-full">
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">REDENTIAL LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">CORPORATE SERVICE</h4>
+							<p>At ANYWASH we provide the provide the best services for clients at affordable price, you can rely on our experience when hiring our professional laundry service.
+We offer Corporate service which is also a basic service but this service is specifically designed for corporate entities i.e. banks, hotels, restaurant and so on. It also includes</p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> washing.</li>
+								<li><i class="fa fa-check-circle"></i> ironing.</li>
+								<li><i class="fa fa-check-circle"></i> cleaning.</li>
+								<li><i class="fa fa-check-circle"></i> Pickup and delivery service.</li>
+								<li><i class="fa fa-check-circle"></i> @Affordable Price.</li>
 							</ul>
 						</div>
 					</div>
@@ -87,14 +89,15 @@
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">BUSINESS LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">BASIC EXPRESS</h4>
+							<p>We provide the highest quality dry cleaning at your doorstep. we do it all, better and faster than anyone. Although we offer affordable service, we still want to provide high service quality for customers. <br />At ANYWASH, we also offer a Basic service which is rendered urgently within the period of 24hrs or less, depending on the request of the customer or client.</p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> washing.</li>
+								<li><i class="fa fa-check-circle"></i> ironing.</li>
+								<li><i class="fa fa-check-circle"></i> cleaning.</li>
+								<li><i class="fa fa-check-circle"></i> Pickup and delivery service.</li>
+								<li><i class="fa fa-check-circle"></i> Express Delivery.</li>
+                                <li><i class="fa fa-check-circle"></i> @ Affordable Price.</li>
 							</ul>
 						</div>
 					</div>
@@ -104,14 +107,15 @@
 				<div class="services-item-full">
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">INDUSTRY LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">CORPORATE EXPRESS</h4>
+							<p>If you need to clean your clothes quickly, you should consider using our service. We provide the best service for clients at required time within the period of 24hrs or less, depending on customer request.<br /> This is a corporate service which is rendered urgently specifically for corporate entities. </p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> washing.</li>
+								<li><i class="fa fa-check-circle"></i> ironing.</li>
+								<li><i class="fa fa-check-circle"></i> cleaning.</li>
+                                <li><i class="fa fa-check-circle"></i> Express Delivery.</li>
+								<li><i class="fa fa-check-circle"></i> Pickup and delivery service.</li>
+								<li><i class="fa fa-check-circle"></i> @ Affordable Price.</li>
 							</ul>
 						</div>
 					</div>
@@ -131,14 +135,14 @@
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">COSPLAY LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">V I P SERVICE</h4>
+							<p>ANYWASH is one of the best companies for dry cleaning.The quality, convenience and excellent service is what makes us awesome. We ensures soft clean laundry that smells fresh and also deploy an inspection process that makes sure you get your clothes back with no broken buttons and more attention to detail than ever before.<br /> It comes with extra ordinary services e.g</p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> perfuming.</li>
+								<li><i class="fa fa-check-circle"></i> treatment.</li>
+								<li><i class="fa fa-check-circle"></i> dyeing.</li>
+								<li><i class="fa fa-check-circle"></i> repair.</li>
+								<li><i class="fa fa-check-circle"></i> @ Affordable Price.</li>
 							</ul>
 						</div>
 					</div>
@@ -149,14 +153,14 @@
 				<div class="services-item-full">
 					<div class="col-xs-12 col-md-6">
 						<div class="desc-wrap">
-							<h4 class="title-page">SPACE LAUNDRY</h4>
-							<p>This template is designed with a unique and simple, so that it can promote and laundry business solution. This template can be an alternative for entrepreneurs engaged in the laundry. or could be an alternative for web developers who need to design websites laundry kategory business. As for the advantages of this template is multipage template which consists of a homepage, about page, services page, pricing page, faq page, blog and contact page. so that it can describe all the requirements needed for a business website.</p>
+							<h4 class="title-page">V I P EXPRESS</h4>
+							<p>We provide a reliable and fast laundry services and dry cleaning that works for the professional as well as busy moms on the go. Just take all your clothes that need laundry  to us and we'll clean them with the best detergents and fabric softeners. <br />V I P express is also a VIP service but it is a service requires some level of urgency.<br />Note: express services cost extra payment.
+                            </p>
 							<ul class="service-list">
-								<li><i class="fa fa-check-circle"></i> Ready for all devices.</li>
-								<li><i class="fa fa-check-circle"></i> Made with Adobe Muse.</li>
-								<li><i class="fa fa-check-circle"></i> No Coding Required.</li>
-								<li><i class="fa fa-check-circle"></i> Easy Costumizable.</li>
-								<li><i class="fa fa-check-circle"></i> Affordable Price.</li>
+								<li><i class="fa fa-check-circle"></i> perfuming.</li>
+								<li><i class="fa fa-check-circle"></i> treatment.</li>
+								<li><i class="fa fa-check-circle"></i> dyeing.</li>
+								<li><i class="fa fa-check-circle"></i> repair.</li>
 							</ul>
 						</div>
 					</div>

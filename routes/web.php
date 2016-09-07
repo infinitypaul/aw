@@ -31,7 +31,7 @@ Route::get('/faq', ['as' => 'faq', 'uses' => 'HomeController@getFaq']);
 
 Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlog']);
 
-Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlogs']);
+Route::get('/blog', ['as' => 'blogs', 'uses' => 'HomeController@getBlogs']);
 
 Auth::routes();
 

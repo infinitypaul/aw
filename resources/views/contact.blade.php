@@ -10,7 +10,7 @@
 					<div class="caption">
 						<h3>CONTACT</h3>
 						<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
+						  <li><a href="{{ action('HomeController@getIndex') }}">Home</a></li>
 						  <li class="active">Contact</li>
 						</ol>
 					</div>
@@ -29,7 +29,7 @@
 				<div class="col-sm-12 col-md-12">
 					<div class="page-title">
 						<h2 class="lead">CONTACT US</h2>
-						<p class="sublead">This template is designed with a unique and simple, so that it can promote and laundry business solution.</p>
+						<p class="sublead">Contact us today to ask about our affordable laundry service.</p>
 					</div>
 				</div>
 			</div>
@@ -77,7 +77,7 @@
 					
 				</div>
 				
-				<div class="col-sm-12 col-md-6">
+				<!--<div class="col-sm-12 col-md-6">
 				
 					<div class="maps-wraper">
 						<div id="cd-zoom-in"></div>
@@ -85,22 +85,22 @@
 						<div id="maps" class="maps" data-lat="-7.452278" data-lng="112.708992" >
 							
 						</div>
-					</div>
+					</div>-->
 					
 					 
 					<div class="row contact-address">
 						<div class="col-sm-12 col-md-6">
 							<div class="contact-address-item">
-								<div class="contact-address-heading">ADDRESS 1</div>
+								<div class="contact-address-heading">Head Office</div>
 								<p>
-								180 Sukarajin Street, Pekanbaru <br />
-								40021 Riau. <br />
-								Indonesia.<br /><br />
-								Phone : +62 7144 3311
+								7 Borokini Dada Street,Benson Bus-stop Lagos road,  <br />
+								opposite UBA Bank, beside Access Bank, <br />
+								Ikorodu. Lagos.<br /><br />
+								Phone : +234 8170012975
 								</p>
 							</div>
 						</div>
-						<div class="col-sm-12 col-md-6">
+						<!--<div class="col-sm-12 col-md-6">
 							<div class="contact-address-item">
 								<div class="contact-address-heading">ADDRESS 2</div>
 								<p>
@@ -110,7 +110,7 @@
 								Phone : +62 7144 3300
 								</p>
 							</div>
-						</div>
+						</div>-->
 						<div class="col-sm-12 col-md-6">
 							<div class="contact-address-item">
 								<div class="contact-address-heading">OPENING HOURS</div>

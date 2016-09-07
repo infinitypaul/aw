@@ -29,4 +29,39 @@ class HomeController extends Controller
     {
         return view('index');
     }
+	
+	 public function getAbout()
+    {
+        return view('about');
+    }
+	
+	 public function getContact()
+    {
+        return view('contact');
+    }
+	
+	 public function getServices()
+    {
+        return view('services');
+    }
+	
+	 public function getFaq()
+    {
+        return view('faq');
+    }
+	
+	 public function getBlog()
+    {
+        return view('blog');
+    }
+	
+	 public function getBlogs()
+    {
+        return view('blog-1');
+    }
+	
+	 public function getPricing()
+    {
+        return view('pricing');
+    }
 }
