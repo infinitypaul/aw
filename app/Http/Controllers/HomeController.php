@@ -64,4 +64,9 @@ class HomeController extends Controller
     {
         return view('pricing');
     }
+	
+	 public function getMembers()
+    {
+        return view('members');
+    }
 }

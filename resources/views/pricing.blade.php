@@ -2,7 +2,7 @@
 	
 @section('content')
  
-	<!-- BANNER -->
+	<!-- 1 -->
 	<div class="section subbanner" style="background:url('images/slide_page.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="container">
 			<div class="row">
@@ -21,7 +21,7 @@
 	</div>
 	
 	
-	<!-- ABOUT SECTION -->
+	<!-- 2 -->
 	<div id="services" class="section services">
 		<div class="container">
 			<!--  -->
@@ -276,7 +276,7 @@
 				<div class="col-sm-12 col-md-12">
 				
 				<p class="more-info-price">Get discount 10% if you join our membership. <br />
-				<!--Leather items (1 - 2 weeks finish). <br />-->
+				
 				Don't worry if your items not listed here, <a href="mailto:hello@anywash.ng" title="">Send Us Message</a> and we will take care of it.</p>
 				</div>
 			</div>
@@ -287,5 +287,5 @@
 	</div>
 	
 	
-	<!-- FOOTER SECTION -->
+
 	@stop

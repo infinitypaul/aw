@@ -3,7 +3,7 @@
 @section('content')
 
  
-	<!-- BANNER -->
+	<!-- 1 -->
 	<div class="section banner" >
 		<div class="container pos-relative">
 			<div class="caption">
@@ -51,7 +51,7 @@
 	</div>
 	
 	
-	<!-- ABOUT SECTION -->
+	<!-- 2 -->
 	<div class="section about">
 		<div class="container">
 			<div class="row">
@@ -116,7 +116,7 @@
 	</div>
 
 	
-	<!-- SERVICES SECTION -->
+	<!-- 3 -->
 	<div class="section services">
 		<div class="container">
 			<div class="row">
@@ -133,7 +133,7 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-1.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/home-service-img-1.jpg')}}" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>BASIC OR REGULAR </h4>
@@ -142,7 +142,7 @@
 					</div>
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-2.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/home-service-img-2.jpg')}}" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>CORPORATE SERVICE</h4>
@@ -151,7 +151,7 @@
 					</div>
 					<div class="services-item left">
 						<div class="icon">
-							<img src="images/home-service-img-3.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/home-service-img-3.jpg')}}" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>BASIC EXPRESS</h4>
@@ -164,7 +164,7 @@
 				<div class="col-sm-6 col-md-4 col-md-offset-4">
 					<div class="services-item right">
 						<div class="icon">
-							<img src="images/home-service-img-4.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/home-service-img-4.jpg')}}" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>CORPORATE EXPRESS</h4>
@@ -173,7 +173,7 @@
 					</div>
 					<div class="services-item right">
 						<div class="icon">
-							<img src="images/home-service-img-5.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/home-service-img-5.jpg')}}" alt="" class="img-circle" />
 						</div>
 						<div class="ket">
 							<h4>V I P SERVICE</h4>
@@ -203,7 +203,7 @@
 		</div>
 	</div>
 		
-	<!-- STATS SECTION FACTS --> 
+	<!-- 4 --> 
 	<div class="section stat-facts" style="background:url('images/page_img-u24411-fr.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="bg-overlay">
 			<div class="container">
@@ -263,7 +263,7 @@
 	</div>
 	
 	
-	<!-- TESTIMONIALS SECTION -->
+	<!-- 5 -->
 	<div class="section testimonials">
 		<div class="container">
 			
@@ -281,7 +281,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="{{asset('images/home-testimony-img-1.jpg')}}" alt="" class="img-circle" />
+							<img src="{{asset('images/anony1.jpg')}}" alt="" class="img-circle" />
 							<h3>John Deol</h3>
 							<p></p>
 						</div>
@@ -297,7 +297,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="{{asset('images/home-testimony-img-2.jpg')}}" alt="" class="img-circle" />
+							<img src="{{asset('images/anony2.jpg')}}" alt="" class="img-circle" />
 							<h3>Sonny Deol</h3>
 							<p></p>
 						</div>
@@ -313,7 +313,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="{{asset('images/home-testimony-img-3.jpg')}}" alt="" class="img-circle" />
+							<img src="{{asset('images/anony1.jpg')}}" alt="" class="img-circle" />
 							<h3>Jenny Deol</h3>
 							<p></p>
 						</div>
@@ -330,7 +330,7 @@ Anywash is awesome. I can drop off and pick up my dry-cleaning 24/7. Their servi
 				<div class="col-sm-12 col-md-6">
 					<div class="testimonials-item">
 						<div class="people">
-							<img src="images/home-testimony-img-4.jpg" alt="" class="img-circle" />
+							<img src="{{asset('images/anony1.jpg')}}" alt="" class="img-circle" />
 							<h3>Rambo Deol</h3>
 							<p></p>
 						</div>
@@ -348,7 +348,7 @@ Anywash is awesome. I can drop off and pick up my dry-cleaning 24/7. Their servi
 	</div>
 	
 	
-	<!-- STATS SECTION CLIENT --> 
+	<!-- 6 --> 
 	<div class="section stat-client p-main" style="">
 		<div class="container">
 			<div class="row">
@@ -395,7 +395,7 @@ Anywash is awesome. I can drop off and pick up my dry-cleaning 24/7. Their servi
 	</div>
 	
 	 
-	<!-- BLOG SECTION -->
+	<!-- 7 -->
 	<div class="section blog pbot-main">
 		<div class="container">
 			<div class="row">

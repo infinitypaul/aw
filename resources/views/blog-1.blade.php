@@ -3,7 +3,7 @@
 @section('content')
 
  
-	<!-- BANNER -->
+	<!-- 1 -->
 	<div class="section subbanner" style="background:url('images/slide_page.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="container">
 			<div class="row">
@@ -22,7 +22,7 @@
 	</div>
 	
 	
-	<!-- ABOUT SECTION -->
+	<!-- 2 -->
 	<div id="services" class="section services">
 		<div class="container">
 			<!--  -->
@@ -48,7 +48,7 @@
 							</div>
 							<div id="img-slider" class="carousel slide" data-ride="carousel">
 
-								<!-- Wrapper for slides -->
+								<!-- 8 -->
 								<div class="carousel-inner" role="listbox">
 									<div class="item active">
 									   <img src="images/blog-img-1.jpg" alt="...">
@@ -61,7 +61,7 @@
 									</div>
 								</div>
 
-								<!-- Controls -->
+								<!-- 9 -->
 								<a class="left carousel-control" href="#img-slider" role="button" data-slide="prev">
 									<span class="fa fa-angle-left" aria-hidden="true"></span>
 									<span class="sr-only">Previous</span>
@@ -258,6 +258,4 @@
 		</div>
 	</div>
 	
-	
-	<!-- FOOTER SECTION -->
 	@stop

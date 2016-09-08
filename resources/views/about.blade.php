@@ -2,7 +2,7 @@
 
 @section('content')
  
-	<!-- BANNER ROTATOR -->
+	<!-- 1 -->
 	<div class="section subbanner" style="background:url('images/slide_page.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="container">
 			<div class="row">
@@ -21,7 +21,7 @@
 	</div>
 	
 	
-	<!-- ABOUT SECTION -->
+	<!-- 2 -->
 	<div class="section">
 		<div class="container">
 			<div class="row">
@@ -162,10 +162,6 @@ Delivering the best quality to our customers, ensuring they are satisfied with o
 		</div>
 	</div>
 
-
-	
-	<!-- ABOUT SECTION -->
-		<!-- STATS SECTION CLIENT --> 
 	<div class="fcopy">
 			<div class="container">
 				<div class="row">
@@ -178,7 +174,7 @@ Delivering the best quality to our customers, ensuring they are satisfied with o
 		
 	</div>
 
-	<!-- STATS SECTION CLIENT --> 
+	<!-- 10 --> 
 	<!--<div class="section stat-client bg-grey pbot-main" style="">
 		<div class="container">
 		
@@ -232,6 +228,5 @@ Delivering the best quality to our customers, ensuring they are satisfied with o
 			</div>
 		</div>
 	</div>-->
-	
-	
+		
 	@stop

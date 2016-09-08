@@ -2,18 +2,17 @@
 <html class="no-js" lang="en">
   
 <head>
-    <!-- Basic Page Needs
-    ================================================== -->
+
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anywash - Laundry Service</title>
-    <meta name="description" content="Laundryes - Laundry Business Html Template. It is built using bootstrap 3.3.2 framework, works totally responsive, easy to customise, well commented codes and seo friendly.">
-    <meta name="keywords" content="laundry, multipage, business, clean, bootstrap">
+    <meta name="description" content=" Laundry Business. "
+    <meta name="keywords" content="laundry, business, clean">
     <meta name="author" content="rudhisasmito.com"> 
 	
 	<!-- ==============================================
-	Favicons
+	11
 	=============================================== -->
 
 <link rel="shortcut icon" href="{{asset('images/favicon.ico')}}">
@@ -22,7 +21,7 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/apple-touch-icon-114x114.png')}}">
 	
 	<!-- ==============================================
-	CSS
+	12
 	=============================================== -->
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
 	<link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
@@ -31,13 +30,13 @@
 	
 	
 	<!-- ==============================================
-	Google Fonts
+	13
 	=============================================== -->
     <link href="{{asset('http://fonts.googleapis.com/css?family=Raleway:400,700,900')}}" rel="stylesheet">
 	<!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,900' rel='stylesheet' type='text/css'>-->
 	
 	
-	<!-- Custom Stylesheet -->
+	<!-- 14 -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 	
 	<script src="{{asset('js/modernizr.min.js')}}"></script>
@@ -45,7 +44,7 @@
 </head>
 
 <body>
-	<!-- Load page -->
+	<!-- 15 -->
 	<div class="animationload">
 		<div class="loader"></div>
 	</div>
@@ -86,7 +85,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index-2.html"><img src="{{asset('images/logo_blue.png')}}" alt="" /></a>
+				<a class="navbar-brand" href="{{ action('HomeController@getIndex') }}"><img src="{{asset('images/logo_blue.png')}}" alt="" /></a>
 				
 			</div>
 			<div class="navbar-collapse collapse">
@@ -112,7 +111,7 @@
     @yield('content')
     
     @yield('footer')
-    <!-- FOOTER SECTION -->
+    <!-- 16 -->
 	<div class="footer">
 	
 		<div class="f-desc">

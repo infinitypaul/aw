@@ -33,6 +33,8 @@ Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@getBlog']);
 
 Route::get('/blog', ['as' => 'blogs', 'uses' => 'HomeController@getBlogs']);
 
+Route::get('/members', ['as' => 'members', 'uses' => 'HomeController@getMembers']);
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

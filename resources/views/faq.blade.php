@@ -2,7 +2,7 @@
 	
 @section('content')
 
-	<!-- BANNER -->
+	<!-- 1 -->
 	<div class="section subbanner" style="background:url('images/slide_page.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="container">
 			<div class="row">
@@ -21,7 +21,7 @@
 	</div>
 	
 	
-	<!-- ABOUT SECTION -->
+	<!-- 2 -->
 	<div id="services" class="section services">
 		<div class="container">
 			<!--  -->
@@ -194,6 +194,4 @@
 		</div>
 	</div>
 	
-	
-	<!-- FOOTER SECTION -->
 	@stop
